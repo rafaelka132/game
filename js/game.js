@@ -7,7 +7,7 @@ var fg = new Image();
 var pipeUp = new Image();
 var pipeBottom = new Image();
 
-nasty.src = "img/nasty.png";
+nasty.src = "img/danila.png";
 bg.src = "img/bg.png";
 fg.src = "img/fg.png";
 pipeUp.src = "img/pipeUp.png";
@@ -65,10 +65,6 @@ function draw(){
 			&& (yPos <= pipe[i].y + pipeUp.height
 				|| yPos + nasty.height >= pipe[i].y + pipeUp.height +
 				 gap) || yPos + nasty.height >= cvs.height - fg.height+40) {
-			location.reload();
-		}
-		
-		if(yPos + nasty.height >= cvs.height - fg.height+40) {
 			location.reload();
 		}
 
