@@ -7,7 +7,7 @@ var fg = new Image();
 var pipeUp = new Image();
 var pipeBottom = new Image();
 
-nasty.src = "img/danila.png";
+nasty.src = "img/nasty.png";
 bg.src = "img/bg.png";
 fg.src = "img/fg.png";
 pipeUp.src = "img/pipeUp.png";
