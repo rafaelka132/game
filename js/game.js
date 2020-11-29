@@ -67,6 +67,10 @@ function draw(){
 				 gap) || yPos + nasty.height >= cvs.height - fg.height+40) {
 			location.reload();
 		}
+		
+		if(yPos + nasty.height >= cvs.height - fg.height+40) {
+			location.reload();
+		}
 
 		if(pipe[i].x == 5) {
 			score++;
