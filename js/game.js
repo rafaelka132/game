@@ -24,6 +24,7 @@ var gap = 120;
 
 // При нажатии на какую-либо кнопку
 document.addEventListener("keydown", moveUp);
+document.addEventListener("mousedown", moveUp);
 
 function moveUp() {
  yPos -= 25;
